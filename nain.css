@@ -7,7 +7,7 @@
 	text-decoration: none;
     list-style: none;
 }
-
+/* pour placer la primere img1 en fond*/
 #header{
 	height: 100vh;
 	background-image: url(img1.png);
@@ -16,13 +16,44 @@
 	background-attachment: fixed;
 }
 
-
+/* pour placer la primere img2 en fond*/
 #header2{
 	height: 100vh;
 	background-image: url(img2.png);
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 }
+
+#header3{
+	height: 100vh;
+	background-image: url(img2.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* pour placer la primere img3 en fond*/
+#header5{
+	height: 100vh;
+	background-image: url(img3.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* pour placer la primere img4 en fond*/
+#header7{
+	height: 100vh;
+	background-image: url(img4.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+
+
 .he{
 	background: rgb(235, 228, 235);
 	width: 100%;
@@ -119,6 +150,7 @@ img.pts{
 	top: 10px;
 	margin-top: 30px;
 	padding: 0 600px;
+	
 }
 
 
@@ -137,6 +169,47 @@ img.pts{
 }
 
 h1{
-	font-size: 34px;
+	font-size: 30px;
+	margin-left: 250px;
+	margin-top: 100px;
 
 }
+p{
+	float: right;
+	margin-top: -95px;
+	margin-right: 90px;
+}
+
+#pok{
+	display: inline-block;
+	height: 500px;
+	width: 800px;
+	margin-top: 30px;
+	margin-left: 400px;
+}
+
+.part4{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: 1000px;
+	margin-top: -200px;
+}
+
+
+.part6{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: 300px;
+	margin-top: -300px;
+}
+
+#pop{
+	text-align: center;
+	margin-top: 15em;
+	color: aqua;
+}
+
+
+
+
+
